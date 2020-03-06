@@ -1,0 +1,57 @@
+  * {
+   box-sizing: border-box; 
+  }
+
+  @font-face {
+    font-family: "ocra";
+    src: url(ocra.ttf) format("truetype");
+  }
+  
+  h1 {
+    font-family: "helvetica neue", sans-serif;
+    margin-bottom: 60px;
+  }
+
+  body {
+    margin: 0;
+  }
+
+  footer, main {
+    font-family: "ocra", sans-serif;
+    padding: 2em;
+    line-height: 0.5;
+  }
+
+  main {
+    min-height: 85vh;
+    background: #a83f12;
+    color: #FBFBFF;
+  }
+
+  footer {
+    text-align: center; /* align child divs vertical */
+    background: #a83f12;
+    height: 15vh;
+  }
+
+  .link {
+    font-family: "ocra", sans-serif;
+    background: #a83f12;
+    color: #FBFBFF;
+    transition: font-size 300ms ease-in-out; /* hover animation */
+  }
+
+  .link:hover {
+    font-size: 200%;
+  }
+
+  .fa {
+    padding: 20px;
+    width: 50px;
+    text-decoration: none;
+    color: #FBFBFF;
+  }
+
+  .linespacing {
+    line-height: 16pt;
+  } 
