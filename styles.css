@@ -14,6 +14,8 @@
 
   body {
     margin: 0;
+    background: #a83f12;
+    min-height: 100vh;
   }
 
   footer, main {
@@ -24,19 +26,15 @@
 
   main {
     min-height: 85vh;
-    background: #a83f12;
     color: #FBFBFF;
   }
 
   footer {
     text-align: center; /* align child divs vertical */
-    background: #a83f12;
-    height: 15vh;
   }
 
   .link {
     font-family: "ocra", sans-serif;
-    background: #a83f12;
     color: #FBFBFF;
     transition: font-size 300ms ease-in-out; /* hover animation */
   }
@@ -54,4 +52,9 @@
 
   .linespacing {
     line-height: 16pt;
-  } 
+  }
+
+  .social-links {
+    background: #a83f12;
+    margin-top: 20px;
+  }
