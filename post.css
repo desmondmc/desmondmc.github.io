@@ -4,8 +4,13 @@
   max-width: 768px;
 }
 
+li,
 p {
   font-family: "helvetica neue", sans-serif;
   text-align: justify;
   font-size: large;
+}
+
+li {
+  line-height: 1.5;
 }
