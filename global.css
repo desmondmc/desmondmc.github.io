@@ -32,9 +32,4 @@ main {
 .link {
   font-family: "ocra", sans-serif;
   color: #fbfbff;
-  transition: font-size 300ms ease-in-out; /* hover animation */
-}
-
-.link:hover {
-  font-size: 105%;
 }
