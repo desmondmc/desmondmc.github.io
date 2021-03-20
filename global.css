@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "ocra";
+  src: url(ocra.ttf) format("truetype");
+}
+
+body {
+  margin: 0;
+  background: #121212;
+  min-height: 100vh;
+}
+
+h1 {
+  font-family: "helvetica neue", sans-serif;
+  margin-bottom: 60px;
+}
+
+main {
+  min-height: 85vh;
+  color: #fbfbff;
+}
+
+footer,
+main {
+  font-family: "ocra", sans-serif;
+  padding: 2em;
+}
+
+.link {
+  font-family: "ocra", sans-serif;
+  color: #fbfbff;
+  transition: font-size 300ms ease-in-out; /* hover animation */
+}
+
+.link:hover {
+  font-size: 120%;
+}

@@ -1,0 +1,11 @@
+.content-container {
+  background: transparent;
+  margin-top: 20px;
+  max-width: 768px;
+}
+
+p {
+  font-family: "helvetica neue", sans-serif;
+  text-align: justify;
+  font-size: large;
+}
